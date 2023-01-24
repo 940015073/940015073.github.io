@@ -1,3 +1,4 @@
+@import "//at.alicdn.com/t/c/font_3869004_dg1twbyax2q.css";
 /* 页脚与头图透明 */
 #footer {
   background: transparent !important;
@@ -50,6 +51,7 @@
   width: 100%;
   margin: auto;
 }
+
 /* 一级菜单居中 */
 #nav .menus_items {
   position: absolute !important;
@@ -65,6 +67,7 @@
 .menus_items .menus_item:nth-child(2) .menus_item_child {
   left: -125px;
 }
+
 /* 日间模式不生效 */
 [data-theme="light"] #site-name,
 [data-theme="light"] #site-title,
@@ -191,13 +194,7 @@
   left: 0 !important;
   /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
-svg.icon {
-   width: 1em; height: 1em;
-   /* width和height定义图标的默认宽度和高度*/
-   vertical-align: -0.15em;
-   fill: currentColor;
-   overflow: hidden;
-}
+
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content > .card-widget.card-info {
   background: linear-gradient(
